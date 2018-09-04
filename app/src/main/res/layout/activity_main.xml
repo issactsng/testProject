@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicAppActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|top">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="59dp"
+            android:id="@+id/zoomLogo"
+            android:background="@drawable/zoom_logo"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="80dp" />
+
+        <Button android:text="@string/enroll_simple"
+            android:id="@+id/enrollButton"
+            android:layout_height="60dp"
+            android:layout_width="230dp"
+            android:fontFamily="sans-serif-medium"
+            android:onClick="onEnrollClick"
+            android:textSize="20sp"
+            android:textColor="@drawable/simple_button_text_state"
+            android:background="@drawable/simple_button_bg"
+            android:layout_marginBottom="40dp"
+            android:enabled="false"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button android:text="@string/auth_simple"
+            android:id="@+id/authButton"
+            android:layout_height="60dp"
+            android:layout_width="230dp"
+            android:onClick="onAuthClick"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="20sp"
+            android:textColor="@drawable/simple_button_text_state"
+            android:background="@drawable/simple_button_bg"
+            android:enabled="false"
+            style="?android:attr/borderlessButtonStyle"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

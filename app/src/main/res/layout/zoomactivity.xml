@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|top">
+
+        <Button
+            android:text="Setup Face Recognition"
+            android:id="@+id/btn_setup"
+            android:layout_height="60dp"
+            android:layout_width="230dp"
+            android:fontFamily="sans-serif-medium"
+            android:onClick="enrollClick"
+            android:textSize="20sp"
+            android:textColor="@drawable/simple_button_text_state"
+            android:background="@drawable/simple_button_bg"
+            android:layout_marginBottom="40dp"
+            android:enabled="true" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
